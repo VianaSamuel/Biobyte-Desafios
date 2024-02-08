@@ -1,0 +1,69 @@
+/* CONFIGURAÇÕES GERAIS */
+body {
+    font-family: arial, sans-serif !important;
+}
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+
+/* FONTES */
+h1 {
+    font-size: 30px !important;    
+}
+.info {
+    font-size: 13px;
+}
+.click {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1a73e8;
+}
+.subtitle {
+    font-size: 16px;
+    color: #757575;
+}
+
+
+/* CARD */
+.google-card {
+    width: 80%;
+    border-radius: 1%;
+    border: 1px solid #DADCE0;
+    padding-left: 25px;
+}
+
+
+/* VISUALIZÁVEIS */
+.email-div {
+    position: relative;
+}
+.email-label {
+    position: absolute;
+    top: 16%;
+    left: 75%;
+    user-select: none;
+    background-color: white;
+}
+.password-icon {
+    display: block;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVIDADE */
+@media only screen and (max-width: 1200px) {
+    .email-label {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .google-card {
+        border: none;
+    }
+    .password-icon {
+        display: none;
+    }
+}

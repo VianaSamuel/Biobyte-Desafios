@@ -1,0 +1,16 @@
+{
+  "id": "ID123456",
+  "violation_type_id": "EMBRIAGUEZ_AO_VOLANTE",
+  "officer_observation": "O condutor apresentava sinais de embriaguez. Ao pará-lo, o bafômetro indicou um índice alcoólico acima do permitido pela legislação. O condutor foi detido e o veículo removido para o pátio.",
+  "date_time_ticket": "2024-02-06T17:30:00",
+  "location": {
+    "city": "Belo Horizonte",
+    "address": "Rua Fulano da Silva",
+    "number": "123"
+  },
+  "vehicle_info": {
+    "make": "VOLKSWAGEN",
+    "model": "POLO 1.0 MPI TRACK MANUAL",
+    "license_plate": "ABC1D23"
+  }
+}
