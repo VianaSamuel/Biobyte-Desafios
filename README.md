@@ -4,7 +4,7 @@
 <br />
 
 ## Questão 1
-Acesso para a resolução: [Questão 1](questao1/questao1.json)
+### Acesso para a resolução: [Questão 1](questao1/questao1.json)
  
 A representação em JSON do auto de infração contém todos os campos necessários conforme especificado no enunciado:
 - `"id"`: Código de identificação do auto de infração;
@@ -17,11 +17,11 @@ A representação em JSON do auto de infração contém todos os campos necessá
 <br />
 
 ## Questão 2
-Acesso para a resolução: [Questão 2](questao2)
+### Acesso para a resolução: [Questão 2](questao2)
 
-Print do site: ![questao2_1](assets/questao2_1.png)
+### Print do site: ![questao2_1](assets/questao2_1.png)
 
-Pontos a destacar:
+### Pontos a destacar:
 - O site conta com responsividade: <br /> ![questao2_2](assets/questao2_2.png)
 
 - O input do e-mail não ultrapassa a *label* *"@gmail.com"*: <br /> ![questao2_3](assets/questao2_3.png)
@@ -31,13 +31,13 @@ Pontos a destacar:
 <br />
 
 ## Questão 3
-Acesso para a resolução: [Questão 3](questao3)
+### Acesso para a resolução: [Questão 3](questao3)
 
-Print de uma validação incorreta: ![questao3_1](assets/questao3_1.png)
+### Print de uma validação incorreta: ![questao3_1](assets/questao3_1.png)
 
-Print de uma validação correta: ![questao3_2](assets/questao3_2.png)
+### Print de uma validação correta: ![questao3_2](assets/questao3_2.png)
 
-Pontos a destacar:
+### Pontos a destacar:
 - Validação de Nome e Sobrenome: RegEx + Mínimo de 3 dígitos;
 - Validação de E-mail: RegEx + Mínimo de 3 dígitos + Aceita pontos finais (.) e hífens (-): <br /> ![questao3_3](assets/questao3_3.png)
 - Validação de Senha: Mínimo de 8 dígitos + Validação da confirmação.
@@ -45,8 +45,8 @@ Pontos a destacar:
 <br />
 
 ## Questão 4
-Acesso para a resolução: [Questão 4](questao4)
+### Acesso para a resolução: [Questão 4](questao4)
 
-Print dos inputs de exemplo: ![questao4_1](assets/questao4_1.png)
-Print da resposta: ![questao4_2](assets/questao4_2.png)
-Print dos dados cadastrados: ![questao4_3](assets/questao4_3.png)
+### Print dos inputs de exemplo: ![questao4_1](assets/questao4_1.png)
+### Print da resposta: ![questao4_2](assets/questao4_2.png)
+### Print dos dados cadastrados: ![questao4_3](assets/questao4_3.png)
