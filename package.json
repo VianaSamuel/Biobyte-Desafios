@@ -1,8 +1,8 @@
 {
   "name": "bio",
   "version": "1.0.0",
-  "description": "Acesso para a resolução: [Questão 1](questao1/questao1.json)",
-  "main": "questao4/app.js",
+  "description": "Acesso para a resolução: [Questão 1](web-questao1/questao1.json)",
+  "main": "web-questao4/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

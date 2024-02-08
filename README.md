@@ -4,8 +4,8 @@
 <br />
 
 ---
-## Questão 1
-### Acesso para a resolução: [Questão 1](questao1/questao1.json)
+## Programação Web - Questão 1
+### Acesso para a resolução: [Questão 1](web-questao1/questao1.json)
  
 A representação em JSON do auto de infração contém todos os campos necessários conforme especificado no enunciado:
 - `"id"`: Código de identificação do auto de infração;
@@ -18,17 +18,17 @@ A representação em JSON do auto de infração contém todos os campos necessá
 <br />
 
 ---
-## Questão 2
-### Acesso para a resolução: [Questão 2](questao2)
+## Programação Web - Questão 2
+### Acesso para a resolução: [Questão 2](web-questao2)
 
-### Print do site: ![questao2_1](assets/questao2_1.png)
+### Print do site: ![web-questao2_1](assets/web-questao2_1.png)
 
 ### Pontos a destacar:
-- O site conta com responsividade: <br /> ![questao2_2](assets/questao2_2.png)
+- O site conta com responsividade: <br /> ![web-questao2_2](assets/web-questao2_2.png)
   
 <br />
 
-- O input do e-mail não ultrapassa a *label* *"@gmail.com"*: <br /> ![questao2_3](assets/questao2_3.png)
+- O input do e-mail não ultrapassa a *label* *"@gmail.com"*: <br /> ![web-questao2_3](assets/web-questao2_3.png)
 
 <br />
 
@@ -37,19 +37,19 @@ A representação em JSON do auto de infração contém todos os campos necessá
 <br />
 
 ---
-## Questão 3
-### Acesso para a resolução: [Questão 3](questao3)
+## Programação Web - Questão 3
+### Acesso para a resolução: [Questão 3](web-questao3)
 
-### Print de uma validação incorreta: ![questao3_1](assets/questao3_1.png)
+### Print de uma validação incorreta: ![web-questao3_1](assets/web-questao3_1.png)
 
-### Print de uma validação correta: ![questao3_2](assets/questao3_2.png)
+### Print de uma validação correta: ![web-questao3_2](assets/web-questao3_2.png)
 
 ### Pontos a destacar:
 - **Validação de <ins>Nome e Sobrenome</ins>:** RegEx + Mínimo de 3 dígitos;
 
 <br />
 
-- **Validação de <ins>E-mail</ins>:** RegEx + Mínimo de 3 dígitos + Aceita pontos finais (.) e hífens (-): <br /> ![questao3_3](assets/questao3_3.png)
+- **Validação de <ins>E-mail</ins>:** RegEx + Mínimo de 3 dígitos + Aceita pontos finais (.) e hífens (-): <br /> ![web-questao3_3](assets/web-questao3_3.png)
 
 <br />
 
@@ -58,9 +58,46 @@ A representação em JSON do auto de infração contém todos os campos necessá
 <br />
 
 ---
-## Questão 4
-### Acesso para a resolução: [Questão 4](questao4)
+## Programação Web - Questão 4
+### Acesso para a resolução: [Questão 4](web-questao4)
 
-### Print dos inputs de exemplo: ![questao4_1](assets/questao4_1.png)
-### Print da resposta: ![questao4_2](assets/questao4_2.png)
-### Print dos dados cadastrados: ![questao4_3](assets/questao4_3.png)
+### Print dos inputs de exemplo: ![web-questao4_1](assets/web-questao4_1.png)
+### Print da resposta do servidor: ![web-questao4_2](assets/web-questao4_2.png)
+### Print dos dados cadastrados recebidos: ![web-questao4_3](assets/web-questao4_3.png)
+
+<br />
+
+---
+## Teste de R - Questão 1
+### Acesso para a resolução: [Questão 1](r-questao1)
+
+A importação da base de dados IRIS, conforme especificado no enunciado, foi baixado localmente através do link [https://archive.ics.uci.edu/dataset/53/iris](https://archive.ics.uci.edu/dataset/53/iris).
+
+A importação dos dados foi realizada em 4 etapas:
+1. **Leitura dos dados:** O arquivo *iris.data* é importado;
+2. **Definição dos atributos:** Os atributos foram associados a todos os registros, uma vez que o arquivo não possui cabeçalho;
+3. **Estruturação dos dados:** Os dados foram preparados para análise e visualização.;
+4. **Visualização dos dados**.
+
+### Print do console: ![r-questao1_1](assets/r-questao1_1.png)
+
+### Print dos dados do ambiente: ![r-questao1_2](assets/r-questao1_2.png)
+
+### Print da tabela: ![r-questao1_3](assets/r-questao1_3.png)
+
+<br />
+
+---
+## Teste de R - Questão 2
+### Acesso para a resolução: [Questão 2](r-questao2)
+
+Conforme o enunciado, a análise da base de dados foi realizada identificando:
+1. Quantidade de atributos e registros;
+2. Tipos de atributos;
+3. Sumário da base;
+4. Transformação de *Species* em *Factor*;
+5. Quantidade de registros por espécie.
+
+### Print do resultado da análise no console: ![r-questao2_2](assets/r-questao2_2.png)
+
+### Print do código: ![r-questao2_1](assets/r-questao2_1.png)
