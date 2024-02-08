@@ -81,9 +81,9 @@ A importação dos dados foi realizada em 4 etapas:
 
 ### Print do console: ![r-questao1_1](assets/r-questao1_1.png)
 
-### Print dos dados do ambiente: ![r-questao1_2](assets/r-questao1_2.png)
+### Print dos dados do ambiente: <br /> ![r-questao1_2](assets/r-questao1_2.png)
 
-### Print da tabela: ![r-questao1_3](assets/r-questao1_3.png)
+### Print da tabela: <br /> ![r-questao1_3](assets/r-questao1_3.png)
 
 <br />
 
