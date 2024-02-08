@@ -23,8 +23,6 @@ A representação em JSON do auto de infração contém todos os campos necessá
 
 ### Print do site: ![questao2_1](assets/questao2_1.png)
 
-<br />
-
 ### Pontos a destacar:
 - O site conta com responsividade: <br /> ![questao2_2](assets/questao2_2.png)
   
