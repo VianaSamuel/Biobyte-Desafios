@@ -1,0 +1,51 @@
+<form id="form" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <div class="name">
+            <input type="text" id="name" placeholder="Nome" formControlName="name">
+            <small class="text-danger" *ngIf="f['name'].errors && (f['name'].dirty || f['name'].touched)">
+                Nome inválido.
+            </small>
+            <input type="text" id="last-name" placeholder="Sobrenome" formControlName="lastName">
+            <small class="text-danger" *ngIf="f['lastName'].errors && (f['lastName'].dirty || f['lastName'].touched)">
+                Sobrenome inválido.
+            </small>
+        </div>
+        <div class="email">
+            <input type="email" id="email" placeholder="E-mail" formControlName="email">
+            <small class="text-danger" *ngIf="f['email'].errors && (f['email'].dirty || f['email'].touched)">
+                E-mail inválido.
+            </small>
+            <div class="info">
+                Você pode usar letras, números e pontos finais
+            </div>
+            <div class="click">
+                Usar meu endereço de e-mail atual em vez disso
+            </div>
+        </div>
+        <div class="br">
+            <div class="password">
+                <input type="password" id="password" placeholder="Senha" formControlName="password">
+                <input type="password" id="confirm-password" placeholder="Confirmar" formControlName="confirmPassword">
+            </div>
+            <div>
+                <small class="text-danger" *ngIf="f['password'].errors && (f['password'].dirty || f['password'].touched)">
+                    A senha deve ter no mínimo 8 caracteres.
+                </small>
+                <small class="text-danger" *ngIf="f['confirmPassword'].errors && (f['confirmPassword'].dirty || f['confirmPassword'].touched)">
+                    As senhas não coincidem.
+                </small>
+            </div>
+            <div class="info">
+                Use oito ou mais caracteres com uma combinação de<br>letras, números ou símbolos
+            </div>
+        </div>
+        <div>
+            <div class="cadastrar">
+                <div class="click">
+                    Faça login em vez disso
+                </div>
+                <button type="submit" id="send">Próxima</button>
+            </div>
+        </div>
+    </div>
+</form>

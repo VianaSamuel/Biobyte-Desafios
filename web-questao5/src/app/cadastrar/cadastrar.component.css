@@ -1,0 +1,54 @@
+/* CONFIGURAÇÕES GERAIS */
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* FONTES */
+.info {
+    font-size: 13px;
+    padding-top: 5px;
+}
+.click {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1a73e8;
+    padding-top: 5px;
+}
+.text-danger {
+    color: #a94442 !important;
+    display: block;
+}
+
+
+/* INPUTS */
+input {
+    height: 4vh;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #757575;
+}
+.name,
+.password,
+.cadastrar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email input {
+    width: 94%;
+}
+
+
+/* BOTÕES */
+#send {
+    height: 5vh;
+    width: 5vw;
+    border-radius: 5px;
+    border: 1px solid #757575;
+    background-color: #4688f1;
+    color: white;
+}

@@ -1,0 +1,52 @@
+/* CONFIGURAÇÕES GERAIS */
+.container {
+    display: flex;
+    font-family: arial, sans-serif !important;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    min-width: 50vh;
+}
+.right {
+    min-width: 50vh;
+}
+
+
+/* CARD */
+.google-card {
+    border-radius: 5px;
+    border: 1px solid #DADCE0;
+    padding: 30px;
+}
+
+
+/* IMAGENS */
+.privacy{
+    width: 275px;
+    margin: 0 auto;
+}
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+
+/* FONTES */
+h1 {
+    font-size: 30px !important;    
+}
+.subtitle {
+    font-size: 16px;
+    color: #757575 !important;
+}
+.text-center {
+    text-align: center;
+}
