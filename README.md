@@ -110,7 +110,7 @@ Conforme o enunciado, a análise da base de dados foi realizada identificando:
 
 ### Print do processo de adição do novo registro (no console): <br /> ![r-questao3_1](assets/r-questao3_1.png)
 
-### Print do novo registro (na tabela): ![r-questao3_2](assets/r-questao3_2.png)
+### Print do novo registro (na tabela): <br /> ![r-questao3_2](assets/r-questao3_2.png)
 
 <br />
 
