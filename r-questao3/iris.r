@@ -1,5 +1,5 @@
 # LEITURA DOS DADOS
-iris_path <- "./iris/iris.data"
+iris_path <- "../iris/iris.data"
 iris_data <- read.table(iris_path, header = FALSE, sep = ",") # (o conjunto de dados não possui um cabeçalho, será necessário realizar a atribuição)
 
 # Segundo o arquivo "iris.names":

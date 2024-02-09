@@ -1,5 +1,5 @@
 # LEITURA DOS DADOS
-iris_path <- "./iris/iris.data"
+iris_path <- "../iris/iris.data"
 iris_data <- read.table(iris_path, header = FALSE, sep = ",") # (o conjunto de dados não possui um cabeçalho, será necessário realizar a atribuição)
 
 # Segundo o arquivo "iris.names":
@@ -21,22 +21,20 @@ data_list <- list(iris = iris_data)
 # REGISTROS POR ESPECIES
 rec_per_species <- table(iris$Species)
 
-# DEFINIÇÃO DE CORES PRO GRÁFICO
-clr <- c("setosa" = "lightblue", "versicolor" = "lightgreen", "virginica" = "lightpink")
-
 # CRIAÇÃO DO GRÁFICO
-barplot(rec_per_species,
-        main = "Quantidade de Registros por Espécie",   # título
-        xlab = "Espécie",                               # label do eixo x
-        ylab = "Quantidade de Registros",               # label do eixo y
-        ylim = c(0, 160),                               # limites do eixo y
-        col = clr)                                      # vinculação das cores
+pie(rec_per_species,
+    main = "Quantidade de Registros por Espécie",                   # título
+    cex = 0.9,                                                      # tamanho da fonte
+    col = rainbow(length(rec_per_species)),                         # vinculação das cores
+    labels = paste(names(rec_per_species), ": ", rec_per_species))  # labels com a quantidade
 
 # ADIÇÃO DA LEGENDA
-legend("top",                      # posição da legenda
-       horiz = TRUE,               # direção da legenda
-       legend = rec_per_species,   # texto da legenda
-       fill = clr)                 # vinculação das cores
+legend(-3.5, -1.1,                               # posição da legenda
+       title = "Espécies",                       # título da legenda
+       horiz = TRUE,                             # direção da legenda
+       legend = names(rec_per_species),          # texto da legenda
+       fill = rainbow(length(rec_per_species)),  # vinculação das cores
+       xpd = TRUE)                               # permite plotar fora da área
 
 # VISUALIZAÇÃO DA NOVA COLUNA
 print(iris)
