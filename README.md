@@ -101,3 +101,47 @@ Conforme o enunciado, a análise da base de dados foi realizada identificando:
 ### Print do resultado da análise no console: ![r-questao2_2](assets/r-questao2_2.png)
 
 ### Print do código: ![r-questao2_1](assets/r-questao2_1.png)
+
+<br />
+
+---
+## Teste de R - Questão 3
+### Acesso para a resolução: [Questão 3](r-questao3)
+
+### Print do processo de adição do novo registro (no console): <br /> ![r-questao3_1](assets/r-questao3_1.png)
+
+### Print do novo registro (na tabela): ![r-questao3_2](assets/r-questao3_2.png)
+
+<br />
+
+---
+## Teste de R - Questão 4
+### Acesso para a resolução: [Questão 4](r-questao4)
+
+### Print da tratativa para a criação da nova coluna com base na espécie: <br /> ![r-questao4_1](assets/r-questao4_1.png)
+
+### Print da Setosa (na tabela): ![r-questao4_2](assets/r-questao4_2.png)
+
+### Print da Versicolor (na tabela): ![r-questao4_3](assets/r-questao4_3.png)
+
+### Print da Virginica (na tabela): ![r-questao4_4](assets/r-questao4_4.png)
+
+<br />
+
+---
+## Teste de R - Questão 5
+### Acesso para a resolução: [Questão 5](r-questao5)
+
+### Exportação do gráfico de barras: <br /> ![r-questao5_1](assets/r-questao5_1.png)
+
+### Print do código: ![r-questao5_2](assets/r-questao5_2.png)
+
+<br />
+
+---
+## Teste de R - Questão 6
+### Acesso para a resolução: [Questão 6](r-questao6)
+
+### Exportação do gráfico de pizza: <br /> ![r-questao6_1](assets/r-questao6_1.png)
+
+### Print do código: ![r-questao6_2](assets/r-questao6_2.png)
