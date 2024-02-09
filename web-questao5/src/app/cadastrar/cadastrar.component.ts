@@ -21,15 +21,11 @@ export class CadastrarComponent {
     });
   }
 
-  // Retorna os controles do formulário para fácil acesso no template
   get f() { return this.form.controls; }
 
   onSubmit() {
-    // Lógica para manipular o envio do formulário
     if (this.form.invalid) {
       return;
     }
-    
-    console.log('Formulário enviado com sucesso!', this.form.value);
   }
 }
