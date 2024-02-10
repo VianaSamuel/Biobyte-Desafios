@@ -76,6 +76,22 @@ Etapas seguidas para implementar o back-end REST:
 <br />
 
 ---
+### <ins>Programação Web - Questão 5</ins>
+#### Acesso para a resolução: [Questão 5 (repositório)](web-questao5)
+#### OBS.: Tive dificuldades e não tive tempo suficiente para configurar o deploy do GitHub Pages desta questão.
+
+Para recriar o front-end utilizando Angular, dividi o aplicativo em dois componentes:
+1. O componente principal, que contém o *layout* do site `(app.component)`.
+2. O componente de cadastro, responsável pelo formulário com os campos de entrada  `(cadastrar/cadastrar.component)`.
+
+Para cada componente, recriei e ajustei o estilo usando CSS, além de reimplementar as funções de validação do formulário em TypeScript, fazendo uso da biblioteca `Validators` do `@angular/forms`.
+
+#### Print de inputs corretos: <br /> ![web-questao5_1](assets/web-questao5_1.png)
+
+#### Print de inputs incorretos: <br /> ![web-questao5_2](assets/web-questao5_2.png)
+<br />
+
+---
 ### <ins>Teste de R - Questão 1</ins>
 #### Acesso para a resolução: [Questão 1](r-questao1)
 
