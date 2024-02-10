@@ -78,7 +78,7 @@ Etapas seguidas para implementar o back-end REST:
 ---
 ### <ins>Programação Web - Questão 5</ins>
 #### Acesso para a resolução: [Questão 5 (repositório)](web-questao5)
-#### OBS.: Tive dificuldades e não tive tempo suficiente para configurar o deploy do GitHub Pages desta questão.
+#### OBS.: Enfrentei algumas dificuldades e não pude dedicar o tempo necessário para configurar o deploy do GitHub Pages para esta questão.
 
 Para recriar o front-end utilizando Angular, dividi o aplicativo em dois componentes:
 1. O componente principal, que contém o *layout* do site `(app.component)`.
