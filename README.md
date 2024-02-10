@@ -92,6 +92,17 @@ Para cada componente, recriei e ajustei o estilo usando CSS, além de reimplemen
 <br />
 
 ---
+### Teste de Integração de Sistemas
+
+Uma solução possível para integrar os dados do sistema de gestão hospitalar ao sistema de análise de cirurgias de forma segura e eficiente é através da implementação de um sistema que realize:
+
+1. **Extração dos dados:** Utilizar um script executado na máquina do hospital que acesse os dados do sistema via SSH, de forma a extrair os dados relevantes das cirurgias e dos pacientes. O script pode ser programado para rodar em intervalos regulares, através da expressão *cron*, ou ser acionado manualmente conforme necessário.
+2. **Transformação dos dados:** Caso necessário, os dados extraídos são convertidos para corresponder ao formato utilizado pelo sistema de análise. Ex.: limpeza dos dados, conversão de formatos, etc.
+3. **Carga dos dados:** Uma vez extraídos do sistema de gestão hospitalar e convertidos, os dados podem ser carregados no sistema de análise de cirurgias. Como o sistema está na nuvem e não possui acesso externo ao seu banco de dados, a carga dos dados pode ser feita por meio de uma API segura que o sistema de análise disponibilize para receber os dados.
+
+<br />
+
+---
 ### <ins>Teste de R - Questão 1</ins>
 #### Acesso para a resolução: [Questão 1](r-questao1)
 
